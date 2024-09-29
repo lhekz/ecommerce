@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "name": "Syltherine",
+      "description": "Stylish cafe chair.",
+      "price": "Rp 2.500.000",
+        "imagePublicId": "image_1_2_gse3cj"
+    },
+    {
+      "id": 2,
+      "name": "Leviosa",
+      "description": "Stylish cafe chair",
+      "price": "Rp 2.500.000",
+       "imagePublicId": "image_2_rnblah"
+    },
+    {
+      "id": 3,
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "Rp 7.000.000 Rp 14.000.000",
+        "imagePublicId": "image_3_cy3t57"
+    },
+    {
+      "id": 4,
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "Rp 500.000",
+        "imagePublicId": "image_4_dngx7j"
+      
+    },
+    {
+      "id": 5,
+      "name": "Syltherine",
+      "description": "Stylish cafe chair",
+      "price": "Rp 2.500.000",
+       "imagePublicId": "image_1_2_gse3cj"
+  
+    },
+    {
+      "id": 6,
+      "name": "Leviosa",
+      "description": "Stylish cafe chair",
+      "price": "Rp 2.500.000",
+       "imagePublicId": "image_2_rnblah"
+    },
+    {
+      "id": 7,
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "Rp 7.000.000 Rp 14.000.000",
+        "imagePublicId": "image_3_cy3t57"
+    },
+    {
+      "id": 8,
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "Rp 500.000",
+      "imagePublicId": "image_4_dngx7j"
+    },
+    {
+      "id": 9,
+      "name": "Syltherine",
+      "description": "Stylish cafe chair.",
+      "price": "Rp 2.500.000",
+      "imagePublicId": "image_1_2_gse3cj"
+    },
+    {
+      "id": 10,
+      "name": "Leviosa",
+      "description": "Stylish cafe chair",
+      "price": "Rp 2.500.000",
+      "imagePublicId": "image_2_rnblah"
+    },
+    {
+      "id": 11,
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "Rp 7.000.000 Rp 14.000.000",
+      "imagePublicId": "image_3_cy3t57"
+    },
+    {
+      "id": 12,
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "Rp 500.000",
+      "imagePublicId": "image_4_dngx7j"
+    },
+  
+    {
+      "id": 13,
+      "name": "Syltherine",
+      "description": "Stylish cafe chair.",
+      "price": "Rp 2.500.000",
+      "imagePublicId": "image_1_2_gse3cj"
+    },
+    {
+      "id": 14,
+      "name": "Leviosa",
+      "description": "Stylish cafe chair",
+      "price": "Rp 2.500.000",
+      "imagePublicId": "image_2_rnblah"
+    },
+    {
+      "id": 15,
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "Rp 7.000.000 Rp 14.000.000",
+      "imagePublicId": "image_3_cy3t57"
+     
+    },
+    {
+      "id": 16,
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "Rp 500.000",
+      "imagePublicId": "image_4_dngx7j"
+    }
+    ,
+  
+    {
+      "id": 17,
+      "name": "Syltherine",
+      "description": "Stylish cafe chair.",
+      "price": "Rp 2.500.000",
+      "imagePublicId": "image_1_2_gse3cj"
+    },
+    {
+      "id": 18,
+      "name": "Leviosa",
+      "description": "Stylish cafe chair",
+      "price": "Rp 2.500.000",
+      "imagePublicId": "image_2_rnblah"
+    },
+    {
+      "id": 19,
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "Rp 7.000.000 Rp 14.000.000",
+      "imagePublicId": "image_3_cy3t57"
+    },
+    {
+      "id": 20,
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "Rp 500.000",
+      "imagePublicId": "image_4_dngx7j"
+    }
+  ]
