@@ -11,7 +11,8 @@ export default {
           customLightblue: 'rgba(244, 245, 247, 1)',
         customLightbrown: 'rgba(184, 142, 47, 1)',
         lightGrey: "rgba(159, 159, 159, 1)",
-        customOrange:"rgba(255, 243, 227, 1)"
+        customOrange:"rgba(255, 243, 227, 1)",
+        lighterOrange:"rgba(252, 248, 243, 1)"
       },
       fontFamily: {
         poppines: ['Poppins', 'sans-serif'],

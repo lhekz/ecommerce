@@ -8,6 +8,15 @@ import { Image, Video, Transformation } from 'cloudinary-react';
 
 
 
+import { Link } from 'react-router-dom'
+import MeubelLogos from '../../assets/MeubelLogos.svg'
+import cart from '../../assets/cart.svg'
+import love from '../../assets/love.svg'
+import profileimg from '../../assets/profileimg.svg'
+import search from '../../assets/search.svg'
+
+
+
 //  const SignupSchema = Yup.object().shape({
  
 //    email: Yup.string().email('Invalid email').required('Required'),
@@ -29,6 +38,12 @@ const Home = () => {
   console.log("form submitted",JSON.stringify (formData))
 
   
+
+
+
+  
+
+  
 }
   return (
     
@@ -38,19 +53,61 @@ const Home = () => {
 
 
 
-    <div className='font-poppines'>
-    <div className='font-poppines  pt-72 ml-[55vw] absolute text-left bg-customOrange  '>
 
-    <h2 className='font-poppines font-normal  mb-4 '>New Arrival</h2>
-    <h2 className='font-bold text-6xl mb-4 text-customLightbrown'>Discover Our <br /> New Collection</h2>
-    <h2 className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br />elit tellus, luctus nec ullamcorper mattis.
+
+
+    <div className='font-poppines'>
+<nav>
+<ol className=' flex  space-x-80 text-center items-center text-lg pb-4 pt-4 pr-32  border border-white bg-white' >
+  
+  <li className='flex absolute font-monterat font-bold text-3xl'>
+    <img src={MeubelLogos} alt="MeubelLogos" />
+    <h2 className='pl-4'>Furniro</h2>
+  </li>
+
+  <li className='flex gap-3'>
+
+  <Link className='' to="/home">Home</Link>
+    {/* <h3>About</h3>
+    <h3>Contact</h3> */}
+    <Link className='' to="/shop">Shop</Link>
+    <Link className='' to="/contact">Contact</Link>
+    <Link className='' to="/blog">Blog</Link>
+
+  </li>
+  <li className='flex gap-9'>
+    <img src={profileimg} alt="" />
+    <img src={search} alt="" />
+    <img src={love} alt="" />
+    <img src={cart} alt="" />
+
+  </li>
+</ol></nav>
+
+    <div className='font-poppines W-[200vw] h-[52vh] mt-48 ml-[50vw] absolute text-left bg-customOrange  '>
+
+    <div className='ml-8 mr-4 mt-4'><h2 className='font-poppines font-normal  mb-4 '>New Arrival</h2>
+    <h2 className='font-bold text-6xl  mb-4 text-customLightbrown'>Discover Our <br /> New Collection</h2>
+    <h2 className='text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br />elit tellus, luctus nec ullamcorper mattis.
     </h2>
-    <h2 className=" bg-customLightbrown mb-6 ">BUY NOW</h2> </div>
+    <h2 className=" bg-customLightbrown justify-center pl-6 pt-3 pb-3 mr-80 mt-4 ">BUY NOW</h2></div> </div>
+  
 
   <img className='  max-w-full     object-contain' src={scandinavian} alt="Mscandinavian" />
-  <div className='flex gap-6 pl-52 pt-20 p-16  h-[70vh] w-[70vw]'><Image cloudName="dzyvwxh7n" publicId="https://res.cloudinary.com/dzyvwxh7n/image/upload/v1726585791/Image-living_room_xhdlet.png">
+
+  <div className='mb-3 '>
+
+    <h3 className='text-[32px] font-bold text-4xl mt-2'>Browse The Range</h3>
+    <h4 className='text-[20px] text-lightGrey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+  </div>
+
+  <div className='flex gap-6 pl-52 pt-20 mb-4  h-[70vh] w-[70vw]'><Image cloudName="dzyvwxh7n" publicId="https://res.cloudinary.com/dzyvwxh7n/image/upload/v1726585791/Image-living_room_xhdlet.png">
     <Transformation crop="scale" width="200" angle="10" />
   </Image>
+ 
+
+
+  
     <Image cloudName="dzyvwxh7n" publicId="https://res.cloudinary.com/dzyvwxh7n/image/upload/v1726585791/image_101_fduaof.png">
       <Transformation crop="scale" width="200" angle="10" />
     </Image>
@@ -59,9 +116,14 @@ const Home = () => {
       <Transformation crop="scale" width="200" angle="10" />
     </Image>
   </div>
+ <div className='flex ml-[22vw] gap-64 pb-5'> <h3 className=''>Dinning</h3>
+  <h3 className=''>Living</h3>
+  <h3 className=''>Bedroom</h3></div>
+<div>
 
-
-  <div className='flex gap-9 pb-9'>
+  <h3 className='text-4xl font-bold mb-5 ml-14 '>Our Products</h3>
+</div>
+  <div className=' flex gap-9 pb-9'>
 
 
     <Image cloudName="dzyvwxh7n" publicId="https://res.cloudinary.com/dzyvwxh7n/image/upload/v1726672536/image_1_2_gse3cj.png">
@@ -94,12 +156,12 @@ const Home = () => {
 
   </div>
 
-  <div className="flex gap-6 pb-10">
-    <div className='' >
-      <h2>50+ Beautiful rooms
+  <div className="flex gap-6 pb-10 bg-lighterOrange">
+    <div className='text-left ml-9' >
+      <h2 className='font-bold text-[40px] w-[422px]'>50+ Beautiful rooms 
         inspiration</h2>
-      <h5>Our designer already made a lot of beautiful prototipe of rooms that inspire you</h5>
-      <h3>Explore More</h3>
+      <h5 className='text-base text-lightGrey w-96 mb-7'>Our designer already made a lot of beautiful prototipe of rooms that inspire you</h5>
+      <h3 className='bg-customLightbrown mr-80 p-3'>Explore More</h3>
     </div>
     <div className='flex w-64 h-72 gap-4' >
       <Image cloudName="dzyvwxh7n" publicId="https://res.cloudinary.com/dzyvwxh7n/image/upload/v1726674155/Rectangle_24_n7qlxh.png">
@@ -138,30 +200,30 @@ const Home = () => {
 
 
 
-<div  className='border border-r-0 border-l-0'>
+<div  className='border border-r-0 border-l-0 text-base'>
   <ul className='flex gap-10 mt-16 mb-16 ' >
     <li className=''><h3>Funiro.
     </h3>
-    <h4>400 University Drive Suite 200 Coral Gables, FL 33134 USA</h4>
+    <h4 className='text-lightGrey'>400 University Drive Suite 200 Coral Gables, FL 33134 USA</h4>
     </li>
 
-    <li>
-      <h4>Links</h4>
+    <li className='space-y-3'>
+      <h4 className='mb-2 text-lightGrey '>Links</h4>
       <h4>Home</h4>
       <h4>Shop</h4>
-      <h4>Shop</h4>
+      <h4>About</h4>
       <h4>Contact</h4>
     
     </li>
-    <li>
-      <h4>Help</h4>
+    <li className='space-y-3'>
+      <h4 className='mb-2 text-lightGrey'>Help</h4>
       <h4>Payment Options</h4>
       <h4>Returns</h4>
       <h4>Privacy Policies</h4>
       
     </li>
     
-    <li className=''>
+    <li className=''><h4 className='mb-3 text-lightGrey'>Newsletter</h4>
 <form onSubmit={(e) => handleSubmit(e)} className='flex gap-3' action="" method="POST">
   
     <input value ={email} onChange = {(e) =>setEmail(e.target.value)} type="email"  name="email" id='email' placeholder="Enter Your Email Address" required/>

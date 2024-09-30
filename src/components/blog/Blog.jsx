@@ -9,6 +9,18 @@ import wood from '../../assets/wood.svg'
 import searchicon from '../../assets/searchicon.svg'
 
 
+import scandinavian from '../../assets/scandinavian.png'
+
+
+
+
+import { Link } from 'react-router-dom'
+import MeubelLogos from '../../assets/MeubelLogos.svg'
+import cart from '../../assets/cart.svg'
+import love from '../../assets/love.svg'
+import profileimg from '../../assets/profileimg.svg'
+import search from '../../assets/search.svg'
+
 const blog = () => {
 
 
@@ -46,7 +58,32 @@ const blog = () => {
 
     
     <div className='relative w-[94vw] mx-0 mb-10 font-poppines'>
+  <nav>
+<ol className=' flex  space-x-80 text-center items-center text-lg pb-4 pt-4 pr-32  border border-white bg-white' >
   
+  <li className='flex absolute font-monterat font-bold text-3xl'>
+    <img src={MeubelLogos} alt="MeubelLogos" />
+    <h2 className='pl-4'>Furniro</h2>
+  </li>
+
+  <li className='flex gap-3'>
+
+  <Link className='' to="/home">Home</Link>
+    {/* <h3>About</h3>
+    <h3>Contact</h3> */}
+    <Link className='' to="/shop">Shop</Link>
+    <Link className='' to="/contact">Contact</Link>
+    <Link className='' to="/blog">Blog</Link>
+
+  </li>
+  <li className='flex gap-9'>
+    <img src={profileimg} alt="" />
+    <img src={search} alt="" />
+    <img src={love} alt="" />
+    <img src={cart} alt="" />
+
+  </li>
+</ol></nav>
     <Image
       cloudName="dzyvwxh7n" 
       publicId="https://res.cloudinary.com/dzyvwxh7n/image/upload/v1727578723/Rectangle_1_wogcyd.png" // Use the publicId 
@@ -56,7 +93,7 @@ const blog = () => {
     </Image>
   
    
-    <div className='absolute inset-0 flex flex-col items-center font-poppines top-9 text-black'>
+    <div className='absolute inset-0 flex flex-col items-center font-poppines top-28 text-black'>
      
       <img src={logotwo} alt="icon" className='w-10 h-10 mb-2' />
       

@@ -2,7 +2,7 @@ import { useState } from 'react'
 // import React from 'react'
 
 import Shop from './components/shop/Shop'
-import Nav from './components/nav/Nav'
+
 import Home from './components/home/Home'
 import Contact from './components/contact/Contact'
 import Blog from './components/blog/Blog'
@@ -17,7 +17,7 @@ function App() {
     
       <div>
          
-<Nav/>
+
 
           <Routes>
          
